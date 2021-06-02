@@ -46,3 +46,16 @@ body {
   .nav-link-wrapper:hover {
     border-bottom: 1px solid black;
   }
+  .nav-link-wrapper a:hover {
+    color: black;
+  }
+  
+  .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .portfolio-item-wrapper {
+    position: relative;
+  }
+  
