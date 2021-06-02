@@ -82,3 +82,33 @@ body {
     transition: 1s;
     color: transparent;
   }
+  .image-blur {
+    transition: 1s;
+    filter: brightness(10%);
+  }
+  
+  .img-text-wrapper:hover .subtitle {
+    color: lightseagreen;
+    font-weight: 600;
+  }
+  
+  .logo-wrapper img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .profile-image-wrapper img {
+    width: 100%;
+  }
+  
+  .profile-content-wrapper {
+    padding: 30px;
+  }
+  
+  .profile-content-wrapper h1 {
+    color: lightseagreen;
+  }
